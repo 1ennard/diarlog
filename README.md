@@ -53,5 +53,5 @@ src/
 
 ## Deploy
 
-`dist/` is a static site that works from any sub-path. `.github/workflows/pages.yml` builds and deploys to GitHub Pages on pushes to `main`
-(enable it under *Settings → Pages → Source: GitHub Actions*).
+`dist/` is a static site that works from any sub-path. `.github/workflows/pages.yml` type-checks, tests and builds on every push and pull request,
+and deploys to GitHub Pages from the repository's default branch (enable Pages once under *Settings → Pages → Source: GitHub Actions*).
