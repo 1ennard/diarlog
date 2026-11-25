@@ -1,0 +1,28 @@
+{
+  "name": "diarlog",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Diarlog — low-effort logging, habit tracking, diary and trends.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.3.0",
+    "@mdi/js": "^7.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.32",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.2"
+  }
+}
